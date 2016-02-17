@@ -1,0 +1,7 @@
+<h1>Hello, world!</h1>
+<% if @name != '' and @adjective != '' %>
+  <% str = ' is so ' %>
+  <%= "#{@name}#{str}#{@adjective}" %>
+<% else %>
+  <%= 'You are nothing!' %>
+  <% end %>
